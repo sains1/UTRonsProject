@@ -1,4 +1,5 @@
 Scripts Contents
 
-Script                  Description
-polyester.r             Runs polyester Simulator (r script) to produce rna-seq reads
+Script                | Description
+----------------------------------------------------------------------------------------------------------------------------
+polyester.r           | Runs polyester Simulator (r script) to produce rna-seq reads
