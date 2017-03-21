@@ -1,6 +1,10 @@
 ###################################################################################################################
 # R script to simulate rna-seq reads from hg38 transcriptome reference using polyester simulator                  #
 ###################################################################################################################
+# Usage: R < polyester.r --no-save
+# For hg38 transcriptome, needs ~ 16G memory
+# Output fa files ~20G (unzipped)
+
 
 library(Biostrings)
 library(polyester)
