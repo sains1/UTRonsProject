@@ -57,10 +57,10 @@ for(i in 1:chunks){
       #Assign GC-bias models to readcounts using add_gc_bias function to the readmatrix created above
       readmat_biased = add_gc_bias(readmat, as.list(biases), fasta_sub)  
       
-      # Remove any values which were very small (approaching 0 reads) or were "N/A" in the readmatrix, as this causes 
-      # errors later on. 	
-      readmat_biased[readmat_biased<0.0000000001] <- 0.000000001
-      readmat_biased[is.numeric(readmat_biased) & is.na(readmat_biased)] <- 0.00001
+      # Remove any values which were very small (0 reads) or were "N/A" in the readmatrix, as this causes 
+      # errors later on. Assign very small read counts to these transcripts (0.000000001)	
+      readmat_biased[readmat_biased<=0] <- 0.000000001
+      readmat_biased[is.numeric(readmat_biased) & is.na(readmat_biased)] <- 0.000000001
 
       # Output the read counts for the chunk to a tab seperated file
       write.table(readmat_biased, file=paste0('simulated_reads/chunk_',i,'_readmatrix.txt'), row.names=FALSE, col.names=FALSE)
