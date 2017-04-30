@@ -1,0 +1,7 @@
+Project folder for UTRons masters project
+
+
+CONTENTS        DESCRIPTION
+scripts         important scripts used in the project 
+Data            lists of genes generated in the project
+Notebooks       jupyter notebooks containing code used for data analysis during the project
