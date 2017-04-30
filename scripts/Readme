@@ -1,5 +1,30 @@
 Scripts Contents
 
      Script           |      Description
-----------------------------------------------------------------------------------------------------------------------------
+----------------------------------------------------------------------------------------
 polyester.r           | Runs polyester Simulator (r script) to produce rna-seq reads
+
+
+
+Links to important scripts used
+
+cgat scripts 
+https://github.com/sudlab/cgat/tree/master/scripts
+          gtf2gtf.py
+          gtf2table.py
+
+
+Pipeline_Utrons
+https://github.com/sudlab/pipeline_utrons
+     pipeline_utrons.py
+     find_utrons.py
+     
+     
+Other
+https://code.google.com/archive/p/fasta-to-fastq/
+     fasta-to-fastq
+     
+     
+
+
+
