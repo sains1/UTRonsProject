@@ -5,35 +5,35 @@ Notebook can be viewed on github but in order to run the notebooks, access to sh
 
 
 Contents
-	    1_lengthDistributions.ipynb 
+1_lengthDistributions.ipynb 
 Finding the distributions of lengths for novel UTRons, known UTRons and reference transcripts
   
-      2_expressionDistributions.ipynb
+2_expressionDistributions.ipynb
 Finding the distribution of expression levels for each transcript and then averaging these accross all transcripts
 	
-      3_transcriptCounts.ipynb 
+3_transcriptCounts.ipynb 
 Counting the number of transcripts for each novel and known UTRon
 
-      4_siteCanonicality.ipynb 	
+4_siteCanonicality.ipynb 	
 Investigating if novel UTRons are at canonical sites using the output from cgat scripts gtf2table --splice
 
-      5_saturationPlots.ipynb 	
+5_saturationPlots.ipynb 	
 Producing a saturation plot of transcripts and genes containing systematic novel UTRons identified in the simulations
 
-      6_SimulationPolyesterVsSalmon.ipynb 
+6_SimulationPolyesterVsSalmon.ipynb 
 Looking at the correlation between the real read counts outputted by polyester and the salmon expression estimates for each of the simulations
 
-      7_SimulationSalmonExpression.ipynb 	
+7_SimulationSalmonExpression.ipynb 	
 Looking at the distributions of expression for salmon estimates in the simulations for reference genes, stringtie genes and utron genes
 
-      8_SimulationRealUtronsExpression.ipynb 	
+8_SimulationRealUtronsExpression.ipynb 	
 Looking at the expression of real utrons in the simulations using stringtie expression estimates
 
-      9_CancerPercentages.ipynb
+9_CancerPercentages.ipynb
 Finding the percentages of UTRons expressed in each sample which are in cancer-genes
 
-      10_ProportionExpressionCorrelation_GeneGrouping.ipynb 	
+10_ProportionExpressionCorrelation_GeneGrouping.ipynb 	
 Finding the correlation between expression and proportion for every transcript in every sample and correlating this for each transcript
 
-      11_microRNAOverlap.ipynb 	
+11_microRNAOverlap.ipynb 	
 Investigating the microRNA overlap for each novel and known UTRon
